@@ -88,7 +88,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "Your File Caption."
-            "value": "Hey {mention} \n\n<code>{file_name}</code>",
+            "value": "",
             "required": false
         },
         "CACHE_TIME": {
@@ -103,7 +103,7 @@
         },
         "USE_CAPTION_FILTER": {
             "description": "Whether bot should use captions to improve search results. (True/False)"
-            "value": "False"
+            "value": "False",
             "required": false
 
         }
