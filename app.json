@@ -104,16 +104,15 @@
         "USE_CAPTION_FILTER": {
             "description": "Whether bot should use captions to improve search results. (True/False)"
             "value": "False"
-            "required": true
+            "required": false
 
         }
     },
     "addons": [],
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
+    "buildpacks": [{
+        "url": "heroku/python"
+
+    }],
     "formation": {
         "worker": {
             "quantity": 1,
