@@ -57,11 +57,7 @@
             "description": "ID of groups which bot should work as autofilter, bot can only work in thease groups. If not given , bot can be used in any group.",
             "value": "",
             "required": false
-        },
-        "CUSTOM_FILE_CAPTION": {
-            "description": "A Custom Caption For Your Files."
-            "value": "",
-            "required": false
+        
         },
         "DATABASE_URI": {
             "description": "Mongodb from https://youtu.be/gBLTsH-IXr0",
